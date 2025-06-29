@@ -9,6 +9,7 @@ module.exports = {
         filename: "bundle.js"
     },
     plugins: [new tomlWebpackPlugin({
-        "option1": "hi"
+        "configPath": ".env.toml",
+        "flatten": false,
     })]
 };
