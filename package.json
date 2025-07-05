@@ -1,5 +1,5 @@
 {
-  "name": "toml-webpack",
+  "name": "toml-webpack-plugin",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,12 +7,15 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jallepalli Harsh",
   "license": "ISC",
   "description": "A Plugin to load config in TOML files to webpack",
   "type": "commonjs",
   "devDependencies": {
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "toml": "^3.0.0"
   }
 }
